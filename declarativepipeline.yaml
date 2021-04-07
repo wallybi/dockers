@@ -1,14 +1,14 @@
-Ejemplo de script declarativo en Jenkins
-Andrés Alcaraz Rey
-•
-4 mar
-Para consulta
+#Ejemplo de script declarativo en Jenkins
+#Andrés Alcaraz Rey
+#•
+#4 mar
+#Para consulta
 
-jenkinsfile.txt
-Texto
-Comentarios de la clase
+#jenkinsfile.txt
+#Texto
+#Comentarios de la clase
 
-Ejemplo de script declarativo en Jenkins 
+#Ejemplo de script declarativo en Jenkins 
 pipeline {
             agent any
                 stages {
@@ -47,7 +47,7 @@ pipeline {
                 }
                 failure {
                     echo 'Algo ha fallado'
-                    mail to: "andres.alcaraz@politecnicomalaga.com",
+                    mail to: "wallybi@gmail.com",
                          subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
                          body: "Algo ha fallado con ${env.BUILD_URL}"
                 }
