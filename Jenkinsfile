@@ -1,4 +1,4 @@
-#Ejemplo de script declarativo en Jenkins
+/*#Ejemplo de script declarativo en Jenkins
 #Andrés Alcaraz Rey
 #•
 #4 mar
@@ -8,7 +8,7 @@
 #Texto
 #Comentarios de la clase
 
-#Ejemplo de script declarativo en Jenkins 
+#Ejemplo de script declarativo en Jenkins */
 pipeline {
             agent any
                 stages {
